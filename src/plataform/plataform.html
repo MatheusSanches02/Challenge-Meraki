@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="../../assets/images/tree.ico" sizes="16x16" type="image/png"> 
+    <link rel="stylesheet" href="../../shared/reset.css">
+    <link rel="stylesheet" href="../../shared/style.css">
+    <link rel="stylesheet" href="./plataform.css">
+
+    <title>Meraki</title>
+</head>
+<body style="background-color: var(--background);">
+    <script src="./plataform.js"></script>
+    
+    <!-- Menu -->
+    <div class="container-menu">
+        
+        <!-- Logo Meraki -->
+        <img src="../../assets/images/logo.svg" title="Meraki" />
+
+        <!-- Options -->
+        <div class="container-options">
+
+            <!-- Diário -->
+            <div class="container-item" onclick="setRouter('diary')">
+                <span id="title-active-diary">Diário</span>
+                
+                <!-- Border acitve -->
+                <div id="border-menu-diary" class="border-active"></div>
+            </div>
+            
+            <!-- Videos motivacionais -->
+            <div class="container-item" onclick="setRouter('motivation')">
+                <span id="title-active-motivation">Videos motivacionais</span>
+                
+                <!-- Border acitve -->
+                <div id="border-menu-motivation" class="hide"></div>
+            </div>
+            
+            <!-- Controle de respiração -->
+            <div class="container-item" onclick="setRouter('control')">
+                <span id="title-active-control">Controle de respiração</span>
+                
+                <!-- Border acitve -->
+                <div id="border-menu-control" class="hide"></div>
+            </div>
+        </div>
+
+        <!-- User image -->
+        <img class="pointer" src="../../assets/images/user-default.svg" title="usuário"  onclick="setRouter('profile')" />
+    </div>
+
+    <!-- Paginas -->
+    <div class="container-pages">
+        <iframe id="routers" src="./pages/diary/diary.html"></iframe>
+    </div>
+</body>
+</html>
