@@ -1,0 +1,48 @@
+<!-- Importando css -->
+<link rel="stylesheet" href="../../../../shared/reset.css">
+<link rel="stylesheet" href="../../../../shared/style.css">
+<link rel="stylesheet" href="./control.css">
+
+<!-- Importando javascript -->
+<script src="./control.js"></script>
+
+<!-- Body -->
+<div class="container-page">
+
+    <!-- Page title -->
+    <p class="title">Selecione o tempo desejado</p>
+
+    <!-- Container cron -->
+    <div class="container-cron">
+
+        <!-- Hour -->
+        <div class="card-time">00</div>
+
+        <!-- Separator -->
+        <div class="separator">
+            <div class="tag"></div>
+            <div class="tag"></div>
+        </div>
+        
+        <!-- Minutes -->
+        <div class="card-time">00</div>
+
+        <!-- Separator -->
+        <div class="separator">
+            <div class="tag"></div>
+            <div class="tag"></div>
+        </div>
+
+        <!-- Seconds -->
+        <div class="card-time">00</div>
+        
+        <!-- Inicar -->
+        <div id="start-button" class="container-button" onclick="fadeCron()">Iniciar</div>
+    </div>
+
+    <!-- Gif control -->
+    <div id="animated-control" class="hide">
+        <img class="control-gif" src="../../../../assets/images/control.gif" />
+        <p class="message-gif">Mantenha sua respiração com a mesma frequencia da bolinha...</p>
+    </div>
+</div>
