@@ -1,0 +1,127 @@
+.container-page
+{
+    margin: 30px 0;
+    padding: 0 250px;
+    box-sizing: border-box;
+}
+
+.container-header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-header .title
+{
+    font-size: 21px;
+}
+
+.container-mini-dashboard
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.container-card
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 80px;
+    width: 250px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    color: var(--white);
+    background-color: var(--primary);
+    margin-top: 15px;
+}
+
+.container-card .value
+{
+    margin-top: 3px;
+    font-size: 17px;
+}
+
+.container-list-items
+{
+    margin-top: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+    border: solid 1px var(--border-light);
+    border-radius: 3px;
+}
+
+.container-list-items .title
+{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.container-item
+{
+    background-color: var(--white);
+    border-radius: 3px;
+    box-shadow: var(--shadow);
+    padding: 15px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.header-item
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-item
+{
+    font-size: 14px;
+}
+
+.container-options
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-options .icons
+{
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.container-options .edit
+{
+    color: var(--warning);
+    margin-right: 10px;
+}
+
+.container-options .edit:hover
+{
+    color: var(--warning-hover);
+}
+
+.container-options .remove
+{
+    color: var(--error);
+}
+
+.container-options .remove:hover
+{
+    color: var(--error-hover);
+}
+
+.value-item
+{
+    margin-top: 5px;
+    color: var(--placeholder);
+    width: 95%;
+    line-height: 16px;
+}

@@ -1,0 +1,28 @@
+@media only screen and (max-width: 800px) 
+{
+    .item-datas
+    {
+        padding: 0 100px;
+        box-sizing: border-box;
+    }
+    
+    .container-list-items
+    {
+        flex-direction: column;
+    }
+
+    .item
+    {
+        margin-top: 30px;
+    }
+    
+    .item:first-child
+    {
+        margin-top: 0;
+    }
+
+    .description
+    {
+        width: 80%;
+    }
+}
